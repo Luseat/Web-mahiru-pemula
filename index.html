@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web pertama</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/icon/partner.png" alt="logo" class="logo-img">
+            <h1 class="logo-title">Hanifudin</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">Hobby</a></li>
+                <li><a href="https://wa.me/6285770804763">Kontak</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirLinkedIn()">Follow saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Hanifudin Robani here!</p>
+            <p class="description">Junior Front-End </p>
+            <img src="assets/foto/1304509-removebg-preview.png" alt="hanifudin foto 1" class="img-foto"/>
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">Auh ah gelapp!</p>
+            <p class="description">enggan ngonding namun ingin menjadi progammer</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">Mari kerjasama</button>
+            </div>
+        </div>
+        <div class="container">
+                <div class="card" id="jasa">
+                    <div class="card-item">
+                        <img src="assets/icon/24-hours.png" alt="icon 1" class="icon">
+                        <p class="card-title">Saya suka mabok!</p>
+                        <p class="card-description">Mabok adalah jalan ninjaku</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icon/hot-deal.png" alt="icon 2" class="icon">
+                        <p class="card-title">Mabok teruss!</p>
+                        <p class="card-description">Mabok panadol dicampus esteh</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icon/rating.png" alt="icon 3" class="icon">
+                        <p class="card-title">Mabok nonstop 24/7!</p>
+                        <p class="card-description">Mabok nonstop </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Hanifudin Robbani Website 2024!</p>
+    </footer>
+    <script>
+        function redirLinkedIn() {
+            window.location,href = "https://www.linkedin.com/in/hanifudin-robbani-2652b3233/"
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/6285770804763"
+        }
+
+    </script>
+</body>
+</html>
